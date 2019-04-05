@@ -8,6 +8,11 @@
   display: inline-block;
 }
 
+.a-toggle:focus {
+  outline: none;
+  box-shadow: 0 0 3px 5px rgba(21, 156, 228, 0.5);
+}
+
 /* Hide standard input */
 
 .a-toggle > input[type='checkbox'] {

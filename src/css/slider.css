@@ -11,6 +11,11 @@
   flex-direction: column-reverse;
 }
 
+.a-slider:focus {
+  outline: none;
+  box-shadow: 0 0 3px 5px rgba(21, 156, 228, 0.5);
+}
+
 /* Reset standard input styles */
 
 .a-slider > input[type='range'] {
